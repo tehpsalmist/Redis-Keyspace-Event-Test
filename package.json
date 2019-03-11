@@ -1,0 +1,30 @@
+{
+  "name": "redis-keyspace-tests",
+  "version": "1.0.0",
+  "description": "Testing the reliability and timing of key expiration events in Redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tehpsalmist/Redis-Keyspace-Event-Test.git"
+  },
+  "keywords": [
+    "Redis",
+    "benchmarks",
+    "testing",
+    "pubsub",
+    "events"
+  ],
+  "author": "Ben Steward <bstewardcodes@gmail.com> (tehpsalmist)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tehpsalmist/Redis-Keyspace-Event-Test/issues"
+  },
+  "homepage": "https://github.com/tehpsalmist/Redis-Keyspace-Event-Test#readme",
+  "dependencies": {
+    "ioredis": "^4.6.2",
+    "uuid": "^3.3.2"
+  }
+}
